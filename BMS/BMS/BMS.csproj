@@ -68,6 +68,12 @@
     <Compile Include="AddTransactionDialogue.Designer.cs">
       <DependentUpon>AddTransactionDialogue.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalenderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalenderUserControl.Designer.cs">
+      <DependentUpon>CalenderUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddTransactionDialogue.resx">
       <DependentUpon>AddTransactionDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalenderUserControl.resx">
+      <DependentUpon>CalenderUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

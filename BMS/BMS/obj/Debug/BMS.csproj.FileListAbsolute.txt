@@ -18,3 +18,4 @@ C:\Users\mihir\Desktop\BMSC\BMS\BMS\obj\Debug\BMS.AddDialogue.resources
 C:\Users\mihir\Desktop\BMSC\BMS\BMS\obj\Debug\BMS.UpdateDialogue.resources
 C:\Users\mihir\Desktop\BMSC\BMS\BMS\obj\Debug\BMS.AddTransactionDialogue.resources
 C:\Users\mihir\Desktop\BMSC\BMS\BMS\obj\Debug\BMS.UpdateTransactionDialog.resources
+C:\Users\mihir\Desktop\BMSC\BMS\BMS\obj\Debug\BMS.CalenderUserControl.resources
