@@ -1,6 +1,6 @@
 ﻿namespace BMS
 {
-    partial class UserControl1
+    partial class testC
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,17 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // UserControl1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGray;
-            this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(780, 471);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

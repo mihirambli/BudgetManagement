@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BMS
 {
-    public partial class UserControl1 : UserControl
+    public partial class DashboardUserControl : UserControl
     {
-        public UserControl1()
+        public DashboardUserControl()
         {
             InitializeComponent();
         }

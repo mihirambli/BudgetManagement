@@ -15,6 +15,9 @@ namespace BMS
     public partial class home : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+
+     
+
         private static extern IntPtr CreateRoundRectRgn
        (
            int nLeftRect,     // x-coordinate of upper-left corner
@@ -32,7 +35,9 @@ namespace BMS
             //this.FormBorderStyle = FormBorderStyle.None;
             //Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
             InitializeComponent();
-            
+            dashboardUserControl1.Show();
+            calenderUserControl1.Hide();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -52,13 +57,14 @@ namespace BMS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PanelRight.Visible = false;
-            PanelTop.Visible = false;
-            panel1.Visible = false;
+            //PanelRight.Visible = false;
+            //PanelTop.Visible = false;
+            //panel1.Visible = false;
 
-            calenderUserControl.BringToFront();
-            calenderUserControl.Visible = true;
-            
+            dashboardUserControl1.Hide();
+
+            calenderUserControl1.Show();
+            calenderUserControl1.BringToFront();
             
         }
 
@@ -69,12 +75,17 @@ namespace BMS
 
         private void b0_Click(object sender, EventArgs e)
         {
+            calenderUserControl1.Hide();
+
+            dashboardUserControl1.Show();
+            dashboardUserControl1.BringToFront();
+            
             //PanelCalender.Visible = false;
            // PanelCalenderTop.Visible = false;
 
-            PanelTop.Visible = true;
-            PanelRight.Visible = true;
-            panel1.Visible = true;
+            //PanelTop.Visible = true;
+            //PanelRight.Visible = true;
+           // panel1.Visible = true;
         }   
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
